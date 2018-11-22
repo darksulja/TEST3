@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<systemwide/>
+	<machine/>
+	<dcf>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-88AGwVG8e13YBgTe0aNtCHme91o1hz</param>
+        </keyword>
+		<keyword name="type">
+			<param type="String">deliveryCallback</param>
+		</keyword>
+		<keyword name="threads">
+			<param type="Integer">10</param>
+		</keyword>	
+		<keyword name="script">
+			<param type="String">/opt/evertz/mediator/etc/runners/run_deliveryCallback.js</param>
+		</keyword>	
+		<keyword info="Sets the umask of the environment that the script is run in, optional" name="umask">
+			<param type="String">0002</param>
+		</keyword>
+	</dcf>
+	<alarm/>
+</config>

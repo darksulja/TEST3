@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+	<systemwide>
+	</systemwide>
+	<machine>
+	</machine>
+	<dcf>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-Ojl9atmE9LUnG8oNdfu6BZ8R5NhsFQ</param>
+        </keyword> 
+		<keyword name="type">
+			<param type="">divaVideoRestoreTransfer</param>
+		</keyword>
+		<keyword name="threads">
+			<param type="">20</param>
+		</keyword>
+		<keyword name="script">
+			<param type="">/opt/evertz/mediator/etc/scripts/transfer/wsrunner_customTransfer.py</param>
+		</keyword>
+		<keyword info="Sets the umask of the environment that the script is run in, optional" name="umask">
+			<param type="String">0002</param>
+		</keyword>
+	</dcf>
+	<alarm/>
+</config>

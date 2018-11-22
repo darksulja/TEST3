@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<systemwide/>
+	<machine/>
+	<dcf>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-MonCkv7Uh001k8tRz69gHGVN977mFH</param>
+        </keyword>	
+		<keyword name="type">
+			<param type="String">batonAutoQC</param>
+		</keyword>
+		<keyword name="threads">
+			<param type="Integer">6</param>
+		</keyword>	
+		<keyword name="script">
+			<param type="String">/opt/evertz/mediator/etc/runners/run_batonAutoQC.js</param>
+		</keyword>	
+		<keyword name="jsDir">
+			<param type="String">/opt/evertz/mediator/lib/js/</param>
+		</keyword>	
+		<keyword name="additionalClassPath">
+			<param type="String">/opt/evertz/mediator/lib/java/spring.jar</param>
+		</keyword>	
+		<keyword name="additionalClassPath">
+			<param type="String">/opt/evertz/mediator/lib/java/commons-logging.jar</param>
+		</keyword>	
+	</dcf>
+	<alarm/>
+</config>

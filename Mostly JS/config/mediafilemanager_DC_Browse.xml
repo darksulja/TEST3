@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <systemwide/>
+  <machine/>
+  <dcf>
+    <keyword name="loglevel">
+      <param type="String">debug</param>
+    </keyword>
+    <keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+      <param type="String">A-xweIeP3jbuHIvaqbVFF406sKVdvcBG</param>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_Browse_DF30</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_Browse_DF60</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_Browse_NDF25</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_Browse_P23_976</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+  </dcf>
+  <alarm/>
+</config>

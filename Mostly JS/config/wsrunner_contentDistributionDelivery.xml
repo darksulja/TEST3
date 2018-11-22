@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<systemwide/>
+	<machine/>
+	<dcf>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-7HO0lUYRM18XDTDSAnCWQx1vkikh5F</param>
+        </keyword>
+		<keyword name="type">
+			<param type="String">contentDistributionDeliveryRunner</param>
+		</keyword>
+		<keyword name="threads">
+			<param type="Integer">50</param>
+		</keyword>	
+		<keyword name="script">
+			<param type="String">/opt/evertz/mediator/etc/runners/run_contentDistributionJobFactoriesDelivery.js</param>
+		</keyword>	
+		<keyword info="Sets the umask of the environment that the script is run in, optional" name="umask">
+			<param type="String">0002</param>
+		</keyword>
+		
+		
+		<!-- Added for Signiant -->
+	</dcf>
+	<alarm/>
+</config>

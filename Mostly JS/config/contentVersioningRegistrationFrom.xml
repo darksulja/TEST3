@@ -1,0 +1,569 @@
+<Form>
+  <Name>ContentVersioningRegistrationForm v 2.0.0</Name>
+    <FormColumns>0</FormColumns>
+    <RowList>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Edit Material ID" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.MatId</DomainName>
+                                <DataKey>Material.MatId</DataKey>
+                                <UiElementType>material.matid.auto</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>true</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="300" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell colspan="1" direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.spacer</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="height" value="32" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell colspan="1" direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Leave it Blank if it's a New Material Registration" />
+                            </Properties>
+                            <Styles>
+                                <Style name="fontStyle" value="italic" />
+                                <Style name="fontWeight" value="normal" />
+                                <Style name="textDecoration" value="none" />
+                            </Styles>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Daisy ID" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.ShortTextList.ShortText</DomainName>
+                                <DomainKey>Daisy ID</DomainKey>
+                                <DataKey>Material.DaisyID</DataKey>
+                                <DomainKeyName>ShortTextType</DomainKeyName>
+                                <DomainValueName>Value</DomainValueName>
+                                <UiElementType>generic.textinput</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="200" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Material Title" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.Title</DomainName>
+                                <DataKey>Material.Title</DataKey>
+                                <UiElementType>generic.textinput</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="500" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Content Versioning Type" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.TagList.Tag</DomainName>
+                                <DataKey>Material.ContentVersionType</DataKey>
+                                <DomainKeyName>TagType</DomainKeyName>
+                                <DomainValueName>Value</DomainValueName>
+                                <UiElementType>generic.tagcombo</UiElementType>
+                                <Mandatory>true</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="200" />
+                                <Property name="tagType" value="Content Version Type" />
+                                <Property name="domainValue" value="Please Select" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Mediator Version Type" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.VersionType</DomainName>
+                                <DataKey>Material.VersionType</DataKey>
+                                <UiElementType>generic.tagcombo</UiElementType>
+                                <Mandatory>true</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="200" />
+                                <Property name="tagType" value="Mediator Content Version Types" />
+                                <Property name="domainValue" value="Please Select" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Material type" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell colspan="4" direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.MaterialType</DomainName>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Feature" />
+                            </Properties>
+                            <Styles>
+                                <Style name="fontWeight" value="normal" />
+                                <Style name="fontStyle" value="normal" />
+                                <Style name="textDecoration" value="none" />
+                            </Styles>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Transformation" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.Transformation</DomainName>
+                                <DataKey>Material.Transformation</DataKey>
+                                <UiElementType>generic.tagcombo</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="200" />
+                                <Property name="tagType" value="Content Version Transformation" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList/>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Aspect Ratio" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.AspectRatio</DomainName>
+                                <DataKey>Material.AspectRatio</DataKey>
+                                <UiElementType>material.aspectratio.combo</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="domainValue" value="Unknown" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="TVD #" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.ShortTextList.ShortText</DomainName>
+                                <DomainKey>TVD Production #</DomainKey>
+                                <DataKey>Material.TVDProduction#</DataKey>
+                                <DomainKeyName>ShortTextType</DomainKeyName>
+                                <DomainValueName>Value</DomainValueName>
+                                <UiElementType>generic.textinput</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="100" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Reference/Source TVD #" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.ShortTextList.ShortText</DomainName>
+                                <DomainKey>Original TVD Production #</DomainKey>
+                                <DataKey>Material.OriginalTVDProduction#</DataKey>
+                                <DomainKeyName>ShortTextType</DomainKeyName>
+                                <DomainValueName>Value</DomainValueName>
+                                <UiElementType>generic.textinput</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="100" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Original File Name" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.ShortTextList.ShortText</DomainName>
+                                <DomainKey>Original File Name</DomainKey>
+                                <DataKey>Material.OriginalFileName</DataKey>
+                                <DomainKeyName>ShortTextType</DomainKeyName>
+                                <DomainValueName>Value</DomainValueName>
+                                <UiElementType>generic.textinput</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="width" value="800" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList/>
+        </Row>
+        <Row>
+            <CellList>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <UiElementType>generic.label</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="i18nKey" value="Audio Profile" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+                <Cell direction="vertical" horizontalAlign="left" verticalAlign="top">
+                    <ItemList>
+                        <FormField>
+                            <FieldDefinition>
+                                <DomainName>Material.ShortTextList.ShortText</DomainName>
+                                <DomainKey>Audio Profile</DomainKey>
+                                <DataKey>Material.AudioProfile</DataKey>
+                                <DomainKeyName>ShortTextType</DomainKeyName>
+                                <DomainValueName>Value</DomainValueName>
+                                <UiElementType>generic.literalarraycombo</UiElementType>
+                                <Mandatory>false</Mandatory>
+                                <Constant>false</Constant>
+                                <PopulateFormOnChange>false</PopulateFormOnChange>
+                            </FieldDefinition>
+                            <Properties>
+                                <Property name="enabled" value="true" />
+                                <Property name="valueList" value="None" />
+                                <Property name="defaultValue" value="None" />
+                                <Property name="domainValue" value="None" />
+                                <Property name="width" value="200" />
+                            </Properties>
+                            <Styles/>
+                        </FormField>
+                    </ItemList>
+                </Cell>
+            </CellList>
+        </Row>
+        <Row>
+            <CellList/>
+        </Row>
+    </RowList>
+    <PopulateScript>/opt/evertz/mediator/etc/scripts/ui/cvRegistrationPopulate2.js</PopulateScript>
+    <ValidationScript>/opt/evertz/mediator/etc/scripts/ui/cvRegistrationValidation2.js</ValidationScript>
+    <SubmissionScript>/opt/evertz/mediator/etc/scripts/ui/cvRegistrationSubmission2.js</SubmissionScript>
+    <InitialiseScript>/opt/evertz/mediator/etc/scripts/ui/cvRegistrationInitialize2.js</InitialiseScript>
+</Form>

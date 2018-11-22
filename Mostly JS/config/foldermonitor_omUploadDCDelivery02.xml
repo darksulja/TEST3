@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+	<systemwide>
+		<keyword name="xhost">
+			<param type="">x-core</param>
+		</keyword>
+		<keyword name="yhost">
+			<param type="">y-core</param>
+		</keyword>
+		<keyword name="system">
+			<param type="">x</param>
+		</keyword>
+	</systemwide>
+	<machine>
+	</machine>
+	<dcf>
+		<keyword name="loglevel">
+			<param type="String">DEBUG</param>
+		</keyword>
+		<!--<keyword name="server">
+			<param type="String">localhost</param>
+			<param type="String">wsuser</param>
+			<param type="String">wspass</param>
+		</keyword>-->
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-UvfEJkiQJLZYD9Yys0CMu3tVbJslLy</param>
+        </keyword>  
+		<keyword name="maxHistory">
+			<param type="">50</param>
+		</keyword>
+		<keyword name="monitorFolder"> 
+		   <param type="String">/srv/dc-delivery-02/DIGITAL_DELIVERY/qa-mediator/INCOMING_TO_DENVER/Aspera_Incoming/FROM_DREAMWORKS/CLASSIC_MEDIA_02/</param> <!-- path -->
+		   <param type="Integer">0</param> <!-- minTreeDepth -->
+		   <param type="Integer">0</param> <!-- maxTreeDepth -->
+		   <param type="Integer">10</param> <!-- fullScanIntervalSecs -->
+		   <param type="Integer">10</param> <!-- fileSettlingScanIntervalSecs -->
+		   <param type="Integer">10</param> <!-- fileSettlePeriodSecs -->
+		   <param type="String">omUploadJobFactory</param> <!-- defaultJobFactoryName -->
+		   <param type="String">/opt/evertz/mediator/etc/decisions/fld_gmoOMUploadDecisionScript.js</param>  <!-- Decision script -->
+		   <param type="String"/> <!-- jobDescriptionSkeletonName -->
+		   <param type="Integer">30</param> <!-- workBundleReanalysisIntervalSecs -->
+		   <param type="Integer">false</param> <!-- strictFileSorting -->
+		   <param type="Integer">5</param> <!-- maxJobsPerFolder -->
+		   <param type="Integer">false</param> <!-- priorityMatIdFromFilename -->
+		 </keyword>
+		<keyword name="monitorFolder"> 
+		   <param type="String">/srv/dc-delivery-02/DIGITAL_DELIVERY/qa-mediator/INCOMING_TO_DENVER/Aspera_Incoming/FROM_TELEMUNDO_MIGRATION/MEDIATOR_UPLOAD/</param> <!-- path -->
+		   <param type="Integer">0</param> <!-- minTreeDepth -->
+		   <param type="Integer">0</param> <!-- maxTreeDepth -->
+		   <param type="Integer">10</param> <!-- fullScanIntervalSecs -->
+		   <param type="Integer">10</param> <!-- fileSettlingScanIntervalSecs -->
+		   <param type="Integer">10</param> <!-- fileSettlePeriodSecs -->
+		   <param type="String">omUploadJobFactory</param> <!-- defaultJobFactoryName -->
+		   <param type="String">/opt/evertz/mediator/etc/decisions/fld_gmoOMUploadDecisionScript.js</param>  <!-- Decision script -->
+		   <param type="String"/> <!-- jobDescriptionSkeletonName -->
+		   <param type="Integer">30</param> <!-- workBundleReanalysisIntervalSecs -->
+		   <param type="Integer">false</param> <!-- strictFileSorting -->
+		   <param type="Integer">5</param> <!-- maxJobsPerFolder -->
+		   <param type="Integer">false</param> <!-- priorityMatIdFromFilename -->
+		 </keyword>
+	</dcf>
+	<alarm/>
+</config>

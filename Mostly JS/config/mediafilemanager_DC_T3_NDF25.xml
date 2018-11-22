@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <systemwide/>
+  <machine/>
+  <dcf>
+    <keyword name="loglevel">
+      <param type="String">debug</param>
+    </keyword>
+    <keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+      <param type="String">A-fXoOjQAnFUGwgw38chCGXoIdhKnQrA</param>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_LF_HD_PRORES</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_LF_HD_WAV</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_LF_HD_XDCAM</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_LF_SD_PRORES</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_LF_SD_WAV</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_LF_SD_XDCAM</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_SF_HD_PRORES</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_SF_HD_WAV</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_SF_HD_XDCAM</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_SF_SD_PRORES</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_SF_SD_WAV</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    <keyword name="managedMedia">
+      <param type="String">DC_T3_NDF25_SF_SD_XDCAM</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+  </dcf>
+  <alarm/>
+</config>

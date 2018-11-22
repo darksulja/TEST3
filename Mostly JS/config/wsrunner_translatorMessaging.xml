@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<systemwide/>
+	<machine/>
+	<dcf>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-xGI2cdwUbpYdaJs20IeFrCkkmWLC2f</param>
+        </keyword>
+		<keyword name="type">
+			<param type="String">tlDatabaseUpdateRunner</param>
+		</keyword>
+		<keyword name="threads">
+			<param type="Integer">10</param>
+		</keyword>	
+		<keyword name="script">
+			<param type="String">/opt/evertz/mediator/etc/runners/run_translatorMessaging.py</param>
+		</keyword>	
+	</dcf>
+	<alarm/>
+</config>

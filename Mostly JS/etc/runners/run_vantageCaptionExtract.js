@@ -1,0 +1,21 @@
+//run_vantageCaptionExtract.js
+load("/usr/local/pharos/bin/js/shellfun.js");
+wsLogin("localhost","wsuser","wspass");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
+output("Running run_vantageCaptionExtract.js");
