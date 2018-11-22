@@ -1,0 +1,5 @@
+projects:
+  '*':
+    - vanguard
+    - hosts
+    - mounts

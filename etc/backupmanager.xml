@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BackupManagerConfiguration>
+    <StorageLocations>
+        <S3 name="S3Backup">
+            <BucketName>mediator-dev-backup-manager-bucket</BucketName>
+            <BackupBasePath>mariadb_backups</BackupBasePath>
+        </S3>
+    </StorageLocations>
+    <MainSystemBackup name="mainbackup">
+        <Storage>S3Backup</Storage>
+        <Trigger>
+            <Cron>0 0 8 * * ?</Cron>
+            <Full>true</Full>
+        </Trigger>
+    </MainSystemBackup>
+</BackupManagerConfiguration>

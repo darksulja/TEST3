@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+    <systemwide/>
+    <machine/>
+    <dcf>
+        <keyword name="loglevel">
+            <param type="String">DEBUG</param>
+        </keyword>    
+        <keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-Ljz7Z7Aur9yh2fjvRHoOy0bnGg8GtM</param>
+        </keyword>     
+        <keyword name="maxHistory">
+            <param type="">150</param>
+        </keyword> 
+        <keyword name="monitorSQS" info="Defines an SQS to monitor and the parameters used to control monitoring.">
+            <!-- region -->
+            <param type="">US_WEST_2</param>
+            <!-- queueName -->
+            <param type="">mediator-dev-monitored-bucket-Queue</param>
+            <!-- bucketName -->
+            <param type="">signiant-pmam-dev</param> 
+            <!-- accessKeyId -->
+            <param type="password"></param>
+            <!-- secretKey -->
+            <param type="password"></param>
+            <!-- defaultJobFactoryName -->
+            <param type="">contentUploadJobFactory</param>
+            <!-- decisionScript -->
+            <param type="String">/opt/evertz/mediator/.live_configuration/etc/decisions/decisionScript_contentUpload.js</param>
+            <!-- jobDescriptionSkeletonName -->
+            <param type="">vanillaJobDescription</param>
+            <!-- workBundleReanalysisIntervalSecs -->
+            <param type="">15</param>
+            <!-- strictFileSorting -->
+            <param type="">true</param>
+            <!-- maxJobsPerFolder -->
+            <param type="">250</param>
+            <!-- priorityMatIdFromFilename -->
+            <param type="">false</param>
+            <!-- ownerAccessKey -->
+            <param type="password"></param>
+        </keyword>
+        <keyword name="skeletonDescription" info="Provides a skeleton description for the job before it is created">
+            <param type="String">vanillaJobDescription</param>
+            <param type="String">Files=$filename[0]</param>
+            <param type="String">Path=$path</param>
+        </keyword>
+    </dcf>
+    <alarm/>
+</config>

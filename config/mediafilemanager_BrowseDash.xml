@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<config>
+  <systemwide/>
+  <machine/>
+  <dcf>
+    <keyword name="loglevel">
+      <param type="String">debug</param>
+    </keyword>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+			<param type="String">A-qczYHVegUNmi6AHXjdoDMvI2TQbMUz</param>
+		</keyword>
+    <keyword name="managedMedia">
+      <param type="String">Browse_Dash</param>
+      <param type="String"/>
+      <param type="Boolean">true</param>
+      <param type="Integer"/>
+    </keyword>
+    </dcf>
+  <alarm/>
+</config>

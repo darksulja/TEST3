@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<systemwide/>
+	<machine/>
+	<dcf>
+		<keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+			<param type="String">A-URu7vHFwnkIbD96QM0ELUr1aNO2mFq</param>
+		</keyword>
+		<keyword name="type" info="The type identification: type {genericType},{specificType},{runnerName}">
+			<param type="String">unknownAnalyzeRunner</param>
+		</keyword>
+		<keyword name="script" info="The script to run: script {path}">
+			<param type="String">/opt/evertz/mediator/etc/runners/run_unknownAnalyze.py</param>
+		</keyword>
+		<keyword name="threads" info="The maximum number concurrently running scripts: threads {max}">
+			<param type="Integer">3</param>
+		</keyword>
+	</dcf>
+</config>
+

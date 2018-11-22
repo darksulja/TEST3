@@ -1,0 +1,6 @@
+description: A process to do stuff when there are things to do.
+number_of_instances: 1
+constraints: [['hostname', 'UNIQUE'], ['is_mediatorx_compute', 'LIKE', 'True']]
+child_process_count: 3
+child_process_memory: 64
+memory: 70

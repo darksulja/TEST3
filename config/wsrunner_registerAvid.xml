@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+  <systemwide/>
+  <dcf>
+    <keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+      <param type="String">A-3dtDyC8V83uJ6OZi0BnwGNoHSnviaf</param>
+    </keyword>
+    <keyword info="The type identification" name="type">
+      <param type="String">registerAvid</param>
+    </keyword>
+    <keyword info="The script to run" name="script">
+      <param type="String">/opt/evertz/mediator/.live_configuration/etc/runners/nbc_avid_transfer/wsrunner_avid_register.py</param>
+    </keyword>
+    <keyword name="threads">
+      <param type="Integer">1</param>
+    </keyword>
+  </dcf>
+</config>

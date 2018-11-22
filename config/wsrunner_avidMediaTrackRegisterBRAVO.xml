@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <systemwide>
+    </systemwide>
+    <machine>
+    </machine>
+    <dcf>
+        <keyword name="apptoken" info="Application Token credentials: apptoken {AccessKey}">
+            <param type="String">A-3dtDyC8V83uJ6OZi0BnwGNoHSnviaf</param>
+        </keyword>
+        <keyword name="type">
+            <param type="">avidMediaTrackRegisterBRAVO</param>
+        </keyword>
+        <keyword name="threads">
+            <param type="">1</param>
+        </keyword>
+        <keyword name="arguments">
+             <param type="">--media AVID_BRAVO --media_access_provider AvidBRAVOMap</param>
+        </keyword>
+        <keyword name="script">
+            <param type="">/opt/evertz/mediator/.live_configuration/etc/runners/nbc_avid_transfer/wsrunner_avid_media_track_register.py</param>
+        </keyword>
+    </dcf>
+    <alarm/>
+</config>
